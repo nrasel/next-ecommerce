@@ -8,6 +8,7 @@ function Toast({msg,handleShow,bgColor}) {
 
             <div className={`toast-header ${bgColor} text-light`}>
                 <strong className="mr-auto text-light">{msg.title}</strong>
+                
 
                 <button type="button" className="ml-2 mb-1 text-left close text-light" 
                 data-dismiss="toast" style={{ outline: 'none'}} 
